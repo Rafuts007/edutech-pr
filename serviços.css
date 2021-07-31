@@ -1,0 +1,106 @@
+header {
+	background: #BA55D3;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+#flor {
+	height: 200px;
+	width: 200px;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFE4E1;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #4B0082;
+	text-decoration: underline;
+}
+
+.servicos {
+	background: url("fundoprincipal.jpg");
+	width: 94,1%;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.servicos li {
+	background: #FFFFFF;
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	height: 420px;
+	vertical-align: top;
+	margin: 30px 30px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border: 5px solid #000000;
+	border-radius: 10px;
+}
+
+.servicos li:hover {
+	border-color: #00CED1;
+}
+
+.servicos li:active {
+	border-color: #00FFFF;
+}
+
+.servicos li:hover h2 {
+	font-size: 40px;
+}
+
+.servicos h2 {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 5%;
+}
+
+.servico-foto {
+	width: 80%;
+}
+
+.servico-descricao {
+	font-size: 18px;
+	padding: 16px;
+}
+
+.servico-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: auto;
+}
+
+.servico-foto2 {
+	height: 200px;
+}
+
+footer {
+	text-align: center;
+	background: url("fundo.jpg");
+}
+
+.copyright {
+	padding: 12px;
+}
